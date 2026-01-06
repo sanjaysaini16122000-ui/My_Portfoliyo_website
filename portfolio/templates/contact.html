@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact | My Portfolio{% endblock %}
+
+{% block content %}
+<h1>Contact Me</h1>
+
+<p>If you’d like to work with me, feel free to reach out.</p>
+
+<form method="post">
+    {% csrf_token %}
+
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+</form>
+{% endblock %}
