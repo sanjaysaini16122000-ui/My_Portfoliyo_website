@@ -1,8 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Home | My Portfolio{% endblock %}
 
 {% block content %}
+<div style="display: flex; gap: 30px; align-items: flex-start;">
+    <img src="{% static 'sanjay.jpg' %}" alt="sanjay image" height="200" style="border: 2px solid black;">
+    <div>
+        <h2>Sanjay Saini</h2>
+        <p><strong>Entry-Level Python Web Developer</strong></p>
+        <p>📞 7726889203</p>
+        <p>📧 sanjaysaini16122000@gmail.com</p>
+        <p>📍 Jaipur, Rajasthan</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/sanjaysaini16122000-ui" target="_blank">https://github.com/sanjaysaini16122000-ui</a></p>
+    </div>
+</div>
 <h1>Welcome to My Portfolio website</h1>
 <p>
     I am a <strong>Python Backend Developer</strong> specializing in
