@@ -2,6 +2,16 @@
 
 A professional, modern portfolio website built with **Django**, showcasing backend development skills, projects, and contact information.
 
+## 🖼️ Screenshots
+
+| Home Page | About Page |
+|-----------|------------|
+| ![Home](portfolio/static/screenshots/home.png) | ![About](portfolio/static/screenshots/about.png) |
+
+| Projects Page | Contact Page |
+|---------------|--------------|
+| ![Projects](portfolio/static/screenshots/projects.png) | ![Contact](portfolio/static/screenshots/contact.png) |
+
 ## 🚀 Features
 
 - **Responsive Design**: Mobile-friendly layout with a sticky navigation bar.
@@ -66,6 +76,8 @@ My_Portfolio_website/
 │   ├── portfolio/         # Project Configuration (Settings, URLs)
 │   ├── templates/         # HTML Templates
 │   ├── static/            # Static files (CSS, Images)
+│   │   ├── screenshots/   # Website Page Screenshots
+│   │   └── sanjay.jpg     # Profile Image
 │   ├── manage.py          # Django Management Script
 │   └── db.sqlite3         # Database
 │
