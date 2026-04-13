@@ -6,11 +6,11 @@ A professional, modern portfolio website built with **Django**, showcasing backe
 
 | Home Page | About Page |
 |-----------|------------|
-| ![Home](portfolio/static/screenshots/home.png) | ![About](portfolio/static/screenshots/about.png) |
+| ![Home](portfolio/static/screenshots/home.jpg) | ![About](portfolio/static/screenshots/about.jpg) |
 
 | Projects Page | Contact Page |
 |---------------|--------------|
-| ![Projects](portfolio/static/screenshots/projects.png) | ![Contact](portfolio/static/screenshots/contact.png) |
+| ![Projects](portfolio/static/screenshots/projects.jpg) | ![Contact](portfolio/static/screenshots/contact.jpg) |
 
 ## 🚀 Features
 
