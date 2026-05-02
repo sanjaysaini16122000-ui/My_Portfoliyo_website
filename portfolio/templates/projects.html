@@ -5,24 +5,22 @@
 {% block content %}
 <h1>My Projects</h1>
 
-<ul>
-    <li>
-        <a href="https://github.com/sanjaysaini16122000-ui/My_Portfoliyo_website"><strong>Portfolio Website</strong><br></a>
-        Django-based personal portfolio website.
-    </li>
-    <br>
-    <li>
-        <strong>REST API Project</strong><br>
-        Built APIs using Django REST Framework.
-    </li>
-    <br>
-    <li>
-        <strong>Authentication System</strong><br>
-        Login, logout, and user management with Django.
-    </li>
-</ul>
+<div class="project-item">
+    <h3><a href="https://github.com/sanjaysaini16122000-ui/My_Portfoliyo_website" target="_blank">Portfolio Website</a></h3>
+    <p>Django-based personal portfolio website showcasing projects and skills.</p>
+</div>
 
-<p>
+<div class="project-item">
+    <h3>REST API Project</h3>
+    <p>Built robust APIs using Django REST Framework with token authentication and proper documentation.</p>
+</div>
+
+<div class="project-item">
+    <h3>Authentication System</h3>
+    <p>Implemented secure login, logout, and user registration systems with Django's built-in auth framework.</p>
+</div>
+
+<p style="text-align: center; margin-top: 40px; color: var(--accent-color);">
     More projects coming soon 🚀
 </p>
 {% endblock %}

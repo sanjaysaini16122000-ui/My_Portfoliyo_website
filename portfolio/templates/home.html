@@ -4,33 +4,36 @@
 {% block title %}Home | My Portfolio{% endblock %}
 
 {% block content %}
-<div style="display: flex; gap: 30px; align-items: flex-start;">
-    <img src="{% static 'sanjay.jpg' %}" alt="sanjay image" height="200" style="border: 2px solid black;">
-    <div>
+<div class="profile-section">
+    <img src="{% static 'sanjay.jpg' %}" alt="Sanjay Saini" class="profile-image">
+    <div class="profile-info">
         <h2>Sanjay Saini</h2>
         <p><strong>Entry-Level Python Web Developer</strong></p>
         <p>📞 7726889203</p>
         <p>📧 sanjaysaini16122000@gmail.com</p>
         <p>📍 Jaipur, Rajasthan</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/sanjaysaini16122000-ui"
-                target="_blank">https://github.com/sanjaysaini16122000-ui</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/sanjaysaini16122000-ui" target="_blank">sanjaysaini16122000-ui</a></p>
     </div>
 </div>
-<h1>Welcome to My Portfolio website</h1>
-<p>
-    I am a <strong>Python Backend Developer</strong> specializing in
-    Django, REST APIs, and database-driven applications.
-</p>
 
-<h3>Skills</h3>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Python</li>
-    <li>Django</li>
-    <li>Django REST Framework</li>
-    <li>PostgreSQL / SQLite</li>
-    <li>Git & GitHub</li>
-</ul>
+<div class="project-item">
+    <h1>Welcome to My Portfolio</h1>
+    <p>
+        I am a <strong>Python Backend Developer</strong> specializing in
+        Django, REST APIs, and database-driven applications.
+    </p>
+</div>
+
+<div class="project-item">
+    <h3>Technical Skills</h3>
+    <ul class="skills-grid">
+        <li>🔹 HTML / CSS</li>
+        <li>🔹 Javascript</li>
+        <li>🔹 Python</li>
+        <li>🔹 Django</li>
+        <li>🔹 Django REST Framework</li>
+        <li>🔹 PostgreSQL / SQLite</li>
+        <li>🔹 Git & GitHub</li>
+    </ul>
+</div>
 {% endblock %}
