@@ -69,8 +69,6 @@ Visit `http://127.0.0.1:8000/` in your browser.
 ## 📂 Project Structure
 
 ```text
-My_Portfolio_website/
-│
 ├── portfolio/             # Django Project Root
 │   ├── myapp/             # Main Application (Views, Models, Templates)
 │   ├── portfolio/         # Project Configuration (Settings, URLs)
@@ -78,10 +76,10 @@ My_Portfolio_website/
 │   ├── static/            # Static files (CSS, Images)
 │   │   ├── screenshots/   # Website Page Screenshots
 │   │   └── sanjay.jpg     # Profile Image
-│   ├── manage.py          # Django Management Script
-│   └── db.sqlite3         # Database
+│   └── manage.py          # Django Management Script
 │
 ├── .venv/                 # Virtual Environment
+├── db.sqlite3             # Database
 └── README.md              # Project Documentation
 ```
 
